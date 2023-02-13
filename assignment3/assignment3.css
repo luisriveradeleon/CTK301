@@ -1,0 +1,49 @@
+#CTKmain {
+    color:green;
+    background-color: black;
+}
+
+#CTKsub {
+    color:red;
+    background-color: black;
+}
+
+.CTKtri {
+    color:blue;
+    background-color: black;
+}
+
+.big {
+    color:aquamarine;
+    background-color: pink;
+}
+
+.small {
+    color: pink;
+    background-color: aqua;
+}
+
+.text {
+    color:aqua;
+    background-color: aquamarine;
+}
+
+.spanstyle {
+    color: black;
+}
+
+.divexample {
+    color:black;
+}
+
+a {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #00ff00;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }        
