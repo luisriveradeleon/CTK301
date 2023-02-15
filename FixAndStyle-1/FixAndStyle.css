@@ -1,0 +1,43 @@
+.title1 {
+    color:white;
+}
+
+.background1 {
+    background-color: #8195f9;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+    text-decoration: underline;
+}
+
+.title2 {
+    color:blue;
+}
+
+.span1 {
+    color: gold;
+    font-weight: bold;
+}
+
+.background2 {
+    background-color: yellow;
+}
+
+.text1 {
+    color: red;
+}
+
+.title3 {
+    color: yellow;
+    background-color: green;
+}
+
+.background3 {
+    background-color: aquamarine;
+}
