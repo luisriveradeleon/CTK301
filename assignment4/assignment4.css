@@ -1,0 +1,85 @@
+/*#CTKmain {
+    color:green;
+    background-color: black;
+}
+
+#CTKsub {
+    color:red;
+    background-color: black;
+}
+
+#CTKtri {
+    color:blue;
+    background-color: black;
+}
+
+.big {
+    color:aquamarine;
+    background-color: green;
+}
+
+/*.small {
+    color: pink;
+    background-color: red;
+} */
+
+.text {
+    color:aqua;
+    background-color: blue;
+}
+
+.spanstyle {
+    color: black;
+}
+
+a {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #00ff00;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }        
+
+.centered {
+    text-align: center;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.undertale {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+.imgbox {
+    border: 2px solid #ffff00;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: #000000;
+}
+
+body {
+    background-image: url(Ultra\ Alola.png);
+}
