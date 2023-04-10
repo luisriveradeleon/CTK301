@@ -1,0 +1,86 @@
+body {
+  background-color: #000435;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #00FFF3;
+}
+
+header {
+  grid-column: span 12;
+  background-color: #FF9ADE;
+  text-align: center;
+}
+
+main {
+  grid-column: span 6;
+}
+
+main ul {
+  list-style: none;
+}
+
+.bubble1 {
+  margin-left: 318px;
+}
+
+.bubble2 {
+  margin-left: 24px;
+}
+
+.bubble3 {
+  margin-left: 220px;
+}
+
+.bubble4 {
+  margin-left: 122px;
+}
+
+.bubble5 {
+  margin-left: 342px;
+}
+
+aside {
+  grid-column: span 6;
+  background-image: url(Bismuth.jpg);
+}
+
+aside ul {
+  list-style: none;
+}
+
+.block1 {
+  margin-left: 606px;
+}
+
+.block2 {
+  margin-left: 312px;
+}
+
+.block3 {
+  margin-left: 606px;
+}
+
+.block4 {
+  margin-left: 312px;
+}
+
+.block5 {
+  margin-left: 606px;
+}
+
+footer {
+  grid-column: span 12;
+  background-color: #FFBD3D;
+  text-align: center;
+}
