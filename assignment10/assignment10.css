@@ -1,0 +1,150 @@
+body {
+  background-color: #000435;
+  font-family: 'Tilt Prism', cursive;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #00FFF3;
+}
+
+header {
+  grid-column: span 12;
+  background-color: #FF9ADE;
+  text-align: center;
+}
+
+main {
+  grid-column: span 6;
+}
+
+main a {
+  transition: opacity 1.0s;
+}
+
+main a:hover {
+opacity: 0%;
+}
+
+.bubble {
+  width: 270px;
+  height: 270px;
+  border-radius: 1000px;
+}
+
+main ul {
+  list-style: none;
+}
+
+.bubble1 {
+  margin-left: 270px;
+  height: 400px;
+  background-image: url(pictures/Blorb.png);
+  background-repeat: no-repeat;
+}
+
+.bubble2 {
+  margin-left: 0px;
+  height: 400px;
+  background-image: url(pictures/Blorb.png);
+  background-repeat: no-repeat;
+  position:relative;
+  top:-200px;
+}
+
+.bubble3 {
+  margin-left: 196px;
+  height: 400px;
+  background-image: url(pictures/Blorb.png);
+  background-repeat: no-repeat;
+  position:relative;
+  top:-300px;
+}
+
+.bubble4 {
+  margin-left: 98px;
+  height: 400px;
+  background-image: url(pictures/Blorb.png);
+  background-repeat: no-repeat;
+  position:relative;
+  top:-300px;
+}
+
+.bubble5 {
+  margin-left: 270px;
+  height: 400px;
+  background-image: url(pictures/Blorb.png);
+  background-repeat: no-repeat;
+  position:relative;
+  top:-400px;
+}
+
+aside {
+  grid-column: span 6;
+  position: relative;
+  top: 100px;
+}
+
+aside ul {
+  list-style: none;
+}
+
+.bismuth {
+  margin-top: 24px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 24px;
+background-image: url(pictures/bismuth.png);
+  width: 612px;
+  height: 1000px;
+  border-top-left-radius: 2000px;
+  border-bottom-left-radius: 2000px;
+}
+
+aside a:hover {
+background-color: #00fff3;
+}
+
+.block1 {
+  margin-left: 302px;
+  grid-column: span 6;
+}
+
+.block2 {
+  margin-left: 100px;
+  grid-column: span 6;
+}
+
+.block3 {
+  margin-left: 302px;
+  grid-column: span 6;
+}
+
+.block4 {
+  margin-left: 100px;
+  grid-column: span 6;
+}
+
+.block5 {
+  margin-left: 302px;
+  grid-column: span 6;
+}
+
+footer {
+  grid-column: span 12;
+  background-color: #FFBD3D;
+  text-align: center;
+  color:#00FFF3;
+  position:relative;
+  top:-500px;
+}
